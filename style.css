@@ -1,0 +1,101 @@
+body {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 40px 10px 40px;
+}
+
+input, button {
+  border: none;
+  border-radius: 1.25rem 1.25rem 0 0;
+  outline: none;
+  text-align: center;
+  margin: 0.2rem 0;
+  width: 400px;
+  padding: 12px 0;
+}
+
+button {
+  border-radius: 0 0 1.25rem 1.25rem;
+  background: lightslategrey;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: wrap;
+  margin: auto;
+  list-style-type: none;
+}
+
+li {
+  max-width: 400px;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+h2 {
+  margin: 10px 0 25px;
+}
+
+.results-container {
+  margin: 0 auto;
+}
+
+.col-form {
+  margin-bottom: 3rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-content p {
+  text-align: justify;
+}
+
+.attach {
+  width: 40%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.infos {
+  width: 60%;
+  height: auto;
+}
