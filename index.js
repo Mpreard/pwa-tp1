@@ -6,7 +6,7 @@ const apiKey = "a6271da45423f425e16ee334ee61c8ee";
 let research = "";
 let movies = [];
 
-const displayMovies = async () => {
+async function displayMovies() {
     await getMovies();
 
     if(movies.results.length === 0) {
@@ -27,14 +27,14 @@ const displayMovies = async () => {
         </div>
       </li>
     `).join("");
-};
+}
 
-const getMovies = async () => {
+async function getMovies() {
     movies = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=` + apiKey + `&query=${research}`).then((response) => response.json());
-};
+}
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     research = searchInput.value;
-    displayMovies();
+    displayMovies().then(r => { return r; });
 });
