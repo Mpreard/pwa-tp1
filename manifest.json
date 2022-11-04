@@ -1,0 +1,15 @@
+{
+  "name": "What Watch",
+  "short_name": "WW",
+  "description": "Website to search movie",
+  "dir": "ltr",
+  "lang": "fr",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "dark",
+  "theme_color": "dark",
+  "orientation": "portrait-primary",
+  "icons": [
+
+  ]
+}
