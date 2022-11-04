@@ -4,12 +4,16 @@
   "description": "Website to search movie",
   "dir": "ltr",
   "lang": "fr",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "dark",
   "theme_color": "dark",
   "orientation": "portrait-primary",
   "icons": [
-
+    {
+      "src": "./Icons/icon.png",
+      "type": "image/png",
+      "size": "1500x1500"
+    }
   ]
 }
